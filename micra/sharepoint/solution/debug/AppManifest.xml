@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest" Name="micra-client-side-solution" ProductID="b12185ac-dab4-4300-adc8-7aec11a3fc83" Version="1.0.0.0" SharePointMinVersion="16.0.0.0" IsClientSideSolution="true" SkipFeatureDeployment="false"><Properties><Title>micra-client-side-solution</Title></Properties></App>

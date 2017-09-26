@@ -1,0 +1,549 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "2.2.1",
+  "hash": "8a1ae421a3745417f562",
+  "time": 107,
+  "publicPath": "",
+  "assetsByChunkName": {
+    "hello-world-web-part": [
+      "hello-world-web-part.js",
+      "hello-world-web-part.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "hello-world-web-part.js",
+      "size": 27618,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "hello-world-web-part"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "hello-world-web-part.js.map",
+      "size": 43209,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "hello-world-web-part"
+      ],
+      "emitted": true
+    }
+  ],
+  "entrypoints": {
+    "hello-world-web-part": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "hello-world-web-part.js",
+        "hello-world-web-part.js.map"
+      ]
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 23955,
+      "names": [
+        "hello-world-web-part"
+      ],
+      "files": [
+        "hello-world-web-part.js",
+        "hello-world-web-part.js.map"
+      ],
+      "hash": "b7789bdc34a9a26b06f4",
+      "parents": [],
+      "origins": [
+        {
+          "moduleId": 12,
+          "module": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.js",
+          "moduleIdentifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.js",
+          "moduleName": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "loc": "",
+          "name": "hello-world-web-part",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.module.scss.js",
+      "name": "./lib/webparts/helloWorld/HelloWorldWebPart.module.scss.js",
+      "index": 4,
+      "index2": 8,
+      "size": 430,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.js",
+      "issuerId": 12,
+      "issuerName": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 12,
+          "moduleIdentifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.js",
+          "module": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "moduleName": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "type": "cjs require",
+          "userRequest": "./HelloWorldWebPart.module.scss",
+          "loc": "16:38-80"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\n/* tslint:disable */\nrequire('./HelloWorldWebPart.module.css');\nvar styles = {\n    helloWorld: 'helloWorld_60d0ab6e',\n    container: 'container_60d0ab6e',\n    row: 'row_60d0ab6e',\n    listItem: 'listItem_60d0ab6e',\n    button: 'button_60d0ab6e',\n    label: 'label_60d0ab6e',\n    list: 'list_60d0ab6e',\n};\nexports.default = styles;\n/* tslint:enable */ \n\n"
+    },
+    {
+      "id": 1,
+      "identifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\MockHttpClient.js",
+      "name": "./lib/webparts/helloWorld/MockHttpClient.js",
+      "index": 11,
+      "index2": 10,
+      "size": 518,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.js",
+      "issuerId": 12,
+      "issuerName": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 12,
+          "moduleIdentifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.js",
+          "module": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "moduleName": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "type": "cjs require",
+          "userRequest": "./MockHttpClient",
+          "loc": "18:23-50"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar MockHttpClient = (function () {\n    function MockHttpClient() {\n    }\n    MockHttpClient.get = function () {\n        return new Promise(function (resolve) {\n            resolve(MockHttpClient._items);\n        });\n    };\n    MockHttpClient._items = [{ Title: \"Mock List\", Id: \"1\" },\n        { Title: \"Mock List 2\", Id: \"2\" },\n        { Title: \"Mock List 3\", Id: \"3\" }];\n    return MockHttpClient;\n}());\nexports.default = MockHttpClient;\n\n"
+    },
+    {
+      "id": 2,
+      "identifier": "external \"@microsoft/sp-core-library\"",
+      "name": "external \"@microsoft/sp-core-library\"",
+      "index": 1,
+      "index2": 0,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.js",
+      "issuerId": 12,
+      "issuerName": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 12,
+          "moduleIdentifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.js",
+          "module": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "moduleName": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "type": "cjs require",
+          "userRequest": "@microsoft/sp-core-library",
+          "loc": "13:24-61"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1
+    },
+    {
+      "id": 3,
+      "identifier": "external \"@microsoft/sp-http\"",
+      "name": "external \"@microsoft/sp-http\"",
+      "index": 12,
+      "index2": 11,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.js",
+      "issuerId": 12,
+      "issuerName": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 12,
+          "moduleIdentifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.js",
+          "module": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "moduleName": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "type": "cjs require",
+          "userRequest": "@microsoft/sp-http",
+          "loc": "19:16-45"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1
+    },
+    {
+      "id": 4,
+      "identifier": "external \"@microsoft/sp-lodash-subset\"",
+      "name": "external \"@microsoft/sp-lodash-subset\"",
+      "index": 3,
+      "index2": 2,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.js",
+      "issuerId": 12,
+      "issuerName": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 12,
+          "moduleIdentifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.js",
+          "module": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "moduleName": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "type": "cjs require",
+          "userRequest": "@microsoft/sp-lodash-subset",
+          "loc": "15:25-63"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1
+    },
+    {
+      "id": 5,
+      "identifier": "external \"@microsoft/sp-webpart-base\"",
+      "name": "external \"@microsoft/sp-webpart-base\"",
+      "index": 2,
+      "index2": 1,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.js",
+      "issuerId": 12,
+      "issuerName": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 12,
+          "moduleIdentifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.js",
+          "module": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "moduleName": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "type": "cjs require",
+          "userRequest": "@microsoft/sp-webpart-base",
+          "loc": "14:24-61"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1
+    },
+    {
+      "id": 6,
+      "identifier": "external \"HelloWorldWebPartStrings\"",
+      "name": "external \"HelloWorldWebPartStrings\"",
+      "index": 10,
+      "index2": 9,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.js",
+      "issuerId": 12,
+      "issuerName": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 12,
+          "moduleIdentifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.js",
+          "module": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "moduleName": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "type": "cjs require",
+          "userRequest": "HelloWorldWebPartStrings",
+          "loc": "17:14-49"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1
+    },
+    {
+      "id": 7,
+      "identifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--0-0!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\css-loader\\index.js??ref--0-1!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.module.css",
+      "name": "./lib/webparts/helloWorld/HelloWorldWebPart.module.css",
+      "index": 5,
+      "index2": 7,
+      "size": 482,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.module.scss.js",
+      "issuerId": 0,
+      "issuerName": "./lib/webparts/helloWorld/HelloWorldWebPart.module.scss.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.module.scss.js",
+          "module": "./lib/webparts/helloWorld/HelloWorldWebPart.module.scss.js",
+          "moduleName": "./lib/webparts/helloWorld/HelloWorldWebPart.module.scss.js",
+          "type": "cjs require",
+          "userRequest": "./HelloWorldWebPart.module.css",
+          "loc": "4:0-41"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 2,
+      "source": "var content = require(\"!!../../../node_modules/css-loader/index.js??ref--0-1!./HelloWorldWebPart.module.css\");\nvar loader = require(\"C:\\\\Users\\\\TKALLIAS.EUROBANK\\\\Documents\\\\VSCode\\\\micra\\\\node_modules\\\\@microsoft\\\\load-themed-styles\\\\lib\\\\index.js\");\n\nif(typeof content === \"string\") content = [[module.id, content]];\n\n// add the styles to the DOM\nfor (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);\n\nif(content.locals) module.exports = content.locals;"
+    },
+    {
+      "id": 8,
+      "identifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\css-loader\\index.js?{\"minimize\":true}!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.module.css",
+      "name": "./~/css-loader?{\"minimize\":true}!./lib/webparts/helloWorld/HelloWorldWebPart.module.css",
+      "index": 6,
+      "index2": 4,
+      "size": 1603,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--0-0!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\css-loader\\index.js??ref--0-1!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.module.css",
+      "issuerId": 7,
+      "issuerName": "./lib/webparts/helloWorld/HelloWorldWebPart.module.css",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--0-0!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\css-loader\\index.js??ref--0-1!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.module.css",
+          "module": "./lib/webparts/helloWorld/HelloWorldWebPart.module.css",
+          "moduleName": "./lib/webparts/helloWorld/HelloWorldWebPart.module.css",
+          "type": "cjs require",
+          "userRequest": "!!../../../node_modules/css-loader/index.js??ref--0-1!./HelloWorldWebPart.module.css",
+          "loc": "1:14-109"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 3,
+      "source": "exports = module.exports = require(\"../../../node_modules/css-loader/lib/css-base.js\")();\n// imports\n\n\n// module\nexports.push([module.id, \".helloWorld_60d0ab6e .container_60d0ab6e{max-width:700px;margin:0 auto;box-shadow:0 2px 4px 0 rgba(0,0,0,.2),0 25px 50px 0 rgba(0,0,0,.1)}.helloWorld_60d0ab6e .row_60d0ab6e{padding:20px}.helloWorld_60d0ab6e .listItem_60d0ab6e{max-width:715px;margin:5px auto;box-shadow:0 0 4px 0 rgba(0,0,0,.2),0 25px 50px 0 rgba(0,0,0,.1)}.helloWorld_60d0ab6e .button_60d0ab6e{text-decoration:none;height:32px;min-width:80px;background-color:#0078d7;border-color:#0078d7;color:#fff;outline:transparent;position:relative;font-family:Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:400;border-width:0;text-align:center;cursor:pointer;display:inline-block;padding:0 16px}.helloWorld_60d0ab6e .button_60d0ab6e .label_60d0ab6e{font-weight:600;font-size:14px;height:32px;line-height:32px;margin:0 4px;vertical-align:top;display:inline-block}.helloWorld_60d0ab6e .list_60d0ab6e{margin:10;padding:10;line-height:50px;list-style-type:none;box-shadow:0 4px 4px 0 rgba(0,0,0,.2),0 25px 50px 0 rgba(0,0,0,.1)}.helloWorld_60d0ab6e .list_60d0ab6e,.helloWorld_60d0ab6e .listItem_60d0ab6e{color:#333;font-family:Segoe UI Regular WestEuropean,Segoe UI,Tahoma,Arial,sans-serif;font-size:14px;font-weight:400;box-sizing:border-box}.helloWorld_60d0ab6e .listItem_60d0ab6e{vertical-align:center;margin:0;padding:0;box-shadow:none;padding:9px 28px 3px;position:relative}\", \"\"]);\n\n// exports\n"
+    },
+    {
+      "id": 9,
+      "identifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+      "name": "./~/@microsoft/load-themed-styles/lib/index.js",
+      "index": 8,
+      "index2": 6,
+      "size": 13203,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--0-0!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\css-loader\\index.js??ref--0-1!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.module.css",
+      "issuerId": 7,
+      "issuerName": "./lib/webparts/helloWorld/HelloWorldWebPart.module.css",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--0-0!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\css-loader\\index.js??ref--0-1!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.module.css",
+          "module": "./lib/webparts/helloWorld/HelloWorldWebPart.module.css",
+          "moduleName": "./lib/webparts/helloWorld/HelloWorldWebPart.module.css",
+          "type": "cjs require",
+          "userRequest": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+          "loc": "2:13-139"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 3,
+      "source": "\"use strict\";\n/**\n * An IThemingInstruction can specify a rawString to be preserved or a theme slot and a default value\n * to use if that slot is not specified by the theme.\n */\nvar __assign = (this && this.__assign) || Object.assign || function(t) {\n    for (var s, i = 1, n = arguments.length; i < n; i++) {\n        s = arguments[i];\n        for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\n            t[p] = s[p];\n    }\n    return t;\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\n// IE needs to inject styles using cssText. However, we need to evaluate this lazily, so this\n// value will initialize as undefined, and later will be set once on first loadStyles injection.\nvar _injectStylesWithCssText;\n// Store the theming state in __themeState__ global scope for reuse in the case of duplicate\n// load-themed-styles hosted on the page.\nvar _root = (typeof window === 'undefined') ? global : window; // tslint:disable-line:no-any\nvar _themeState = initializeThemeState();\n/**\n * Matches theming tokens. For example, \"[theme: themeSlotName, default: #FFF]\" (including the quotes).\n */\n// tslint:disable-next-line:max-line-length\nvar _themeTokenRegex = /[\\'\\\"]\\[theme:\\s*(\\w+)\\s*(?:\\,\\s*default:\\s*([\\\\\"\\']?[\\.\\,\\(\\)\\#\\-\\s\\w]*[\\.\\,\\(\\)\\#\\-\\w][\\\"\\']?))?\\s*\\][\\'\\\"]/g;\n/** Maximum style text length, for supporting IE style restrictions. */\nvar MAX_STYLE_CONTENT_SIZE = 10000;\nvar now = function () { return (typeof performance !== 'undefined' && !!performance.now) ? performance.now() : Date.now(); };\nfunction measure(func) {\n    var start = now();\n    func();\n    var end = now();\n    _themeState.perf.duration += end - start;\n}\n/**\n * initialize global state object\n */\nfunction initializeThemeState() {\n    var state = _root.__themeState__ || {\n        theme: undefined,\n        lastStyleElement: undefined,\n        registeredStyles: []\n    };\n    if (!state.runState) {\n        state = __assign({}, (state), { perf: {\n                count: 0,\n                duration: 0\n            }, runState: {\n                flushTimer: 0,\n                mode: 0 /* sync */,\n                buffer: []\n            } });\n    }\n    if (!state.registeredThemableStyles) {\n        state = __assign({}, (state), { registeredThemableStyles: [] });\n    }\n    _root.__themeState__ = state;\n    return state;\n}\n/**\n * Loads a set of style text. If it is registered too early, we will register it when the window.load\n * event is fired.\n * @param {string | ThemableArray} styles Themable style text to register.\n * @param {boolean} loadAsync When true, always load styles in async mode, irrespective of current sync mode.\n */\nfunction loadStyles(styles, loadAsync) {\n    if (loadAsync === void 0) { loadAsync = false; }\n    measure(function () {\n        var styleParts = Array.isArray(styles) ? styles : splitStyles(styles);\n        if (_injectStylesWithCssText === undefined) {\n            _injectStylesWithCssText = shouldUseCssText();\n        }\n        var _a = _themeState.runState, mode = _a.mode, buffer = _a.buffer, flushTimer = _a.flushTimer;\n        if (loadAsync || mode === 1 /* async */) {\n            buffer.push(styleParts);\n            if (!flushTimer) {\n                _themeState.runState.flushTimer = asyncLoadStyles();\n            }\n        }\n        else {\n            applyThemableStyles(styleParts);\n        }\n    });\n}\nexports.loadStyles = loadStyles;\n/**\n * Allows for customizable loadStyles logic. e.g. for server side rendering application\n * @param {(processedStyles: string, rawStyles?: string | ThemableArray) => void}\n * a loadStyles callback that gets called when styles are loaded or reloaded\n */\nfunction configureLoadStyles(loadStylesFn) {\n    _themeState.loadStyles = loadStylesFn;\n}\nexports.configureLoadStyles = configureLoadStyles;\n/**\n * Configure run mode of load-themable-styles\n * @param mode load-themable-styles run mode, async or sync\n */\nfunction configureRunMode(mode) {\n    _themeState.runState.mode = mode;\n}\nexports.configureRunMode = configureRunMode;\n/**\n * external code can call flush to synchronously force processing of currently buffered styles\n */\nfunction flush() {\n    measure(function () {\n        var styleArrays = _themeState.runState.buffer.slice();\n        _themeState.runState.buffer = [];\n        var mergedStyleArray = [].concat.apply([], styleArrays);\n        if (mergedStyleArray.length > 0) {\n            applyThemableStyles(mergedStyleArray);\n        }\n    });\n}\nexports.flush = flush;\n/**\n * register async loadStyles\n */\nfunction asyncLoadStyles() {\n    return setTimeout(function () {\n        _themeState.runState.flushTimer = 0;\n        flush();\n    }, 0);\n}\n/**\n * Loads a set of style text. If it is registered too early, we will register it when the window.load event\n * is fired.\n * @param {string} styleText Style to register.\n * @param {IStyleRecord} styleRecord Existing style record to re-apply.\n */\nfunction applyThemableStyles(stylesArray, styleRecord) {\n    if (_themeState.loadStyles) {\n        _themeState.loadStyles(resolveThemableArray(stylesArray).styleString, stylesArray);\n    }\n    else {\n        _injectStylesWithCssText ?\n            registerStylesIE(stylesArray, styleRecord) :\n            registerStyles(stylesArray);\n    }\n}\n/**\n * Registers a set theme tokens to find and replace. If styles were already registered, they will be\n * replaced.\n * @param {theme} theme JSON object of theme tokens to values.\n */\nfunction loadTheme(theme) {\n    _themeState.theme = theme;\n    // reload styles.\n    reloadStyles();\n}\nexports.loadTheme = loadTheme;\n/**\n * Clear already registered style elements and style records in theme_State object\n * @option: specify which group of registered styles should be cleared.\n * Default to be both themable and non-themable styles will be cleared\n */\nfunction clearStyles(option) {\n    if (option === void 0) { option = 3 /* all */; }\n    if (option === 3 /* all */ || option === 2 /* onlyNonThemable */) {\n        clearStylesInternal(_themeState.registeredStyles);\n        _themeState.registeredStyles = [];\n    }\n    if (option === 3 /* all */ || option === 1 /* onlyThemable */) {\n        clearStylesInternal(_themeState.registeredThemableStyles);\n        _themeState.registeredThemableStyles = [];\n    }\n}\nexports.clearStyles = clearStyles;\nfunction clearStylesInternal(records) {\n    records.forEach(function (styleRecord) {\n        var styleElement = styleRecord && styleRecord.styleElement;\n        if (styleElement && styleElement.parentElement) {\n            styleElement.parentElement.removeChild(styleElement);\n        }\n    });\n}\n/**\n * Reloads styles.\n */\nfunction reloadStyles() {\n    if (_themeState.theme) {\n        var themableStyles = [];\n        for (var _i = 0, _a = _themeState.registeredThemableStyles; _i < _a.length; _i++) {\n            var styleRecord = _a[_i];\n            themableStyles.push(styleRecord.themableStyle);\n        }\n        if (themableStyles.length > 0) {\n            clearStyles(1 /* onlyThemable */);\n            applyThemableStyles([].concat.apply([], themableStyles));\n        }\n    }\n}\n/**\n * Find theme tokens and replaces them with provided theme values.\n * @param {string} styles Tokenized styles to fix.\n */\nfunction detokenize(styles) {\n    if (styles) {\n        styles = resolveThemableArray(splitStyles(styles)).styleString;\n    }\n    return styles;\n}\nexports.detokenize = detokenize;\n/**\n * Resolves ThemingInstruction objects in an array and joins the result into a string.\n * @param {ThemableArray} splitStyleArray ThemableArray to resolve and join.\n */\nfunction resolveThemableArray(splitStyleArray) {\n    var theme = _themeState.theme;\n    var themable = false;\n    // Resolve the array of theming instructions to an array of strings.\n    // Then join the array to produce the final CSS string.\n    var resolvedArray = (splitStyleArray || []).map(function (currentValue) {\n        var themeSlot = currentValue.theme;\n        if (themeSlot) {\n            themable = true;\n            // A theming annotation. Resolve it.\n            var themedValue = theme ? theme[themeSlot] : undefined;\n            var defaultValue = currentValue.defaultValue || 'inherit';\n            // Warn to console if we hit an unthemed value even when themes are provided, but only if \"DEBUG\" is true.\n            // Allow the themedValue to be undefined to explicitly request the default value.\n            if (theme && !themedValue && console && !(themeSlot in theme) && typeof DEBUG !== 'undefined' && DEBUG) {\n                console.warn(\"Theming value not provided for \\\"\" + themeSlot + \"\\\". Falling back to \\\"\" + defaultValue + \"\\\".\");\n            }\n            return themedValue || defaultValue;\n        }\n        else {\n            // A non-themable string. Preserve it.\n            return currentValue.rawString;\n        }\n    });\n    return {\n        styleString: resolvedArray.join(''),\n        themable: themable\n    };\n}\n/**\n * Split tokenized CSS into an array of strings and theme specification objects\n * @param {string} styles Tokenized styles to split.\n */\nfunction splitStyles(styles) {\n    var result = [];\n    if (styles) {\n        var pos = 0; // Current position in styles.\n        var tokenMatch = void 0; // tslint:disable-line:no-null-keyword\n        while (tokenMatch = _themeTokenRegex.exec(styles)) {\n            var matchIndex = tokenMatch.index;\n            if (matchIndex > pos) {\n                result.push({\n                    rawString: styles.substring(pos, matchIndex)\n                });\n            }\n            result.push({\n                theme: tokenMatch[1],\n                defaultValue: tokenMatch[2] // May be undefined\n            });\n            // index of the first character after the current match\n            pos = _themeTokenRegex.lastIndex;\n        }\n        // Push the rest of the string after the last match.\n        result.push({\n            rawString: styles.substring(pos)\n        });\n    }\n    return result;\n}\nexports.splitStyles = splitStyles;\n/**\n * Registers a set of style text. If it is registered too early, we will register it when the\n * window.load event is fired.\n * @param {ThemableArray} styleArray Array of IThemingInstruction objects to register.\n * @param {IStyleRecord} styleRecord May specify a style Element to update.\n */\nfunction registerStyles(styleArray) {\n    var head = document.getElementsByTagName('head')[0];\n    var styleElement = document.createElement('style');\n    var _a = resolveThemableArray(styleArray), styleString = _a.styleString, themable = _a.themable;\n    styleElement.type = 'text/css';\n    styleElement.appendChild(document.createTextNode(styleString));\n    _themeState.perf.count++;\n    head.appendChild(styleElement);\n    var record = {\n        styleElement: styleElement,\n        themableStyle: styleArray\n    };\n    if (themable) {\n        _themeState.registeredThemableStyles.push(record);\n    }\n    else {\n        _themeState.registeredStyles.push(record);\n    }\n}\n/**\n * Registers a set of style text, for IE 9 and below, which has a ~30 style element limit so we need\n * to register slightly differently.\n * @param {ThemableArray} styleArray Array of IThemingInstruction objects to register.\n * @param {IStyleRecord} styleRecord May specify a style Element to update.\n */\nfunction registerStylesIE(styleArray, styleRecord) {\n    var head = document.getElementsByTagName('head')[0];\n    var registeredStyles = _themeState.registeredStyles;\n    var lastStyleElement = _themeState.lastStyleElement;\n    var stylesheet = lastStyleElement ? lastStyleElement.styleSheet : undefined;\n    var lastStyleContent = stylesheet ? stylesheet.cssText : '';\n    var lastRegisteredStyle = registeredStyles[registeredStyles.length - 1];\n    var resolvedStyleText = resolveThemableArray(styleArray).styleString;\n    if (!lastStyleElement || (lastStyleContent.length + resolvedStyleText.length) > MAX_STYLE_CONTENT_SIZE) {\n        lastStyleElement = document.createElement('style');\n        lastStyleElement.type = 'text/css';\n        if (styleRecord) {\n            head.replaceChild(lastStyleElement, styleRecord.styleElement);\n            styleRecord.styleElement = lastStyleElement;\n        }\n        else {\n            head.appendChild(lastStyleElement);\n        }\n        if (!styleRecord) {\n            lastRegisteredStyle = {\n                styleElement: lastStyleElement,\n                themableStyle: styleArray\n            };\n            registeredStyles.push(lastRegisteredStyle);\n        }\n    }\n    lastStyleElement.styleSheet.cssText += detokenize(resolvedStyleText);\n    Array.prototype.push.apply(lastRegisteredStyle.themableStyle, styleArray); // concat in-place\n    // Preserve the theme state.\n    _themeState.lastStyleElement = lastStyleElement;\n}\n/**\n * Checks to see if styleSheet exists as a property off of a style element.\n * This will determine if style registration should be done via cssText (<= IE9) or not\n */\nfunction shouldUseCssText() {\n    var useCSSText = false;\n    if (typeof document !== 'undefined') {\n        var emptyStyle = document.createElement('style');\n        emptyStyle.type = 'text/css';\n        useCSSText = !!emptyStyle.styleSheet;\n    }\n    return useCSSText;\n}\n\n"
+    },
+    {
+      "id": 10,
+      "identifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\css-loader\\lib\\css-base.js",
+      "name": "./~/css-loader/lib/css-base.js",
+      "index": 7,
+      "index2": 3,
+      "size": 1506,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\css-loader\\index.js?{\"minimize\":true}!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.module.css",
+      "issuerId": 8,
+      "issuerName": "./~/css-loader?{\"minimize\":true}!./lib/webparts/helloWorld/HelloWorldWebPart.module.css",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 8,
+          "moduleIdentifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\css-loader\\index.js?{\"minimize\":true}!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.module.css",
+          "module": "./~/css-loader?{\"minimize\":true}!./lib/webparts/helloWorld/HelloWorldWebPart.module.css",
+          "moduleName": "./~/css-loader?{\"minimize\":true}!./lib/webparts/helloWorld/HelloWorldWebPart.module.css",
+          "type": "cjs require",
+          "userRequest": "../../../node_modules/css-loader/lib/css-base.js",
+          "loc": "1:27-86"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 4,
+      "source": "/*\r\n\tMIT License http://www.opensource.org/licenses/mit-license.php\r\n\tAuthor Tobias Koppers @sokra\r\n*/\r\n// css base code, injected by the css-loader\r\nmodule.exports = function() {\r\n\tvar list = [];\r\n\r\n\t// return the list of modules as css string\r\n\tlist.toString = function toString() {\r\n\t\tvar result = [];\r\n\t\tfor(var i = 0; i < this.length; i++) {\r\n\t\t\tvar item = this[i];\r\n\t\t\tif(item[2]) {\r\n\t\t\t\tresult.push(\"@media \" + item[2] + \"{\" + item[1] + \"}\");\r\n\t\t\t} else {\r\n\t\t\t\tresult.push(item[1]);\r\n\t\t\t}\r\n\t\t}\r\n\t\treturn result.join(\"\");\r\n\t};\r\n\r\n\t// import a list of modules into the list\r\n\tlist.i = function(modules, mediaQuery) {\r\n\t\tif(typeof modules === \"string\")\r\n\t\t\tmodules = [[null, modules, \"\"]];\r\n\t\tvar alreadyImportedModules = {};\r\n\t\tfor(var i = 0; i < this.length; i++) {\r\n\t\t\tvar id = this[i][0];\r\n\t\t\tif(typeof id === \"number\")\r\n\t\t\t\talreadyImportedModules[id] = true;\r\n\t\t}\r\n\t\tfor(i = 0; i < modules.length; i++) {\r\n\t\t\tvar item = modules[i];\r\n\t\t\t// skip already imported module\r\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\r\n\t\t\t//  when a module is imported multiple times with different media queries.\r\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\r\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\r\n\t\t\t\tif(mediaQuery && !item[2]) {\r\n\t\t\t\t\titem[2] = mediaQuery;\r\n\t\t\t\t} else if(mediaQuery) {\r\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\r\n\t\t\t\t}\r\n\t\t\t\tlist.push(item);\r\n\t\t\t}\r\n\t\t}\r\n\t};\r\n\treturn list;\r\n};\r\n"
+    },
+    {
+      "id": 11,
+      "identifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\webpack\\buildin\\global.js",
+      "name": "(webpack)/buildin/global.js",
+      "index": 9,
+      "index2": 5,
+      "size": 509,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+      "issuerId": 9,
+      "issuerName": "./~/@microsoft/load-themed-styles/lib/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 9,
+          "moduleIdentifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+          "module": "./~/@microsoft/load-themed-styles/lib/index.js",
+          "moduleName": "./~/@microsoft/load-themed-styles/lib/index.js",
+          "type": "cjs require",
+          "userRequest": "global",
+          "loc": "1:0-47"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 4,
+      "source": "var g;\r\n\r\n// This works in non-strict mode\r\ng = (function() {\r\n\treturn this;\r\n})();\r\n\r\ntry {\r\n\t// This works if eval is allowed (see CSP)\r\n\tg = g || Function(\"return this\")() || (1,eval)(\"this\");\r\n} catch(e) {\r\n\t// This works if the window reference is available\r\n\tif(typeof window === \"object\")\r\n\t\tg = window;\r\n}\r\n\r\n// g can still be undefined, but nothing to do about it...\r\n// We return undefined, instead of nothing here, so it's\r\n// easier to handle this case. if(!global) { ...}\r\n\r\nmodule.exports = g;\r\n"
+    },
+    {
+      "id": 12,
+      "identifier": "C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\node_modules\\source-map-loader\\index.js!C:\\Users\\TKALLIAS.EUROBANK\\Documents\\VSCode\\micra\\lib\\webparts\\helloWorld\\HelloWorldWebPart.js",
+      "name": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+      "index": 0,
+      "index2": 12,
+      "size": 5494,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 0,
+      "source": "\"use strict\";\nvar __extends = (this && this.__extends) || (function () {\n    var extendStatics = Object.setPrototypeOf ||\n        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\n        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\n    return function (d, b) {\n        extendStatics(d, b);\n        function __() { this.constructor = d; }\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n    };\n})();\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar sp_core_library_1 = require(\"@microsoft/sp-core-library\");\nvar sp_webpart_base_1 = require(\"@microsoft/sp-webpart-base\");\nvar sp_lodash_subset_1 = require(\"@microsoft/sp-lodash-subset\");\nvar HelloWorldWebPart_module_scss_1 = require(\"./HelloWorldWebPart.module.scss\");\nvar strings = require(\"HelloWorldWebPartStrings\");\nvar MockHttpClient_1 = require(\"./MockHttpClient\");\nvar sp_http_1 = require(\"@microsoft/sp-http\");\nvar HelloWorldWebPartWebPart = (function (_super) {\n    __extends(HelloWorldWebPartWebPart, _super);\n    function HelloWorldWebPartWebPart() {\n        return _super !== null && _super.apply(this, arguments) || this;\n    }\n    HelloWorldWebPartWebPart.prototype.render = function () {\n        this.domElement.innerHTML = \"\\n      <div class=\\\"\" + HelloWorldWebPart_module_scss_1.default.helloWorld + \"\\\">\\n        <div class=\\\"\" + HelloWorldWebPart_module_scss_1.default.container + \"\\\">\\n          <div class=\\\"ms-Grid-row ms-bgColor-themeDark ms-fontColor-white \" + HelloWorldWebPart_module_scss_1.default.row + \"\\\">\\n            <div class=\\\"ms-Grid-col ms-lg10 ms-xl8 ms-xlPush2 ms-lgPush1\\\">\\n              <span class=\\\"ms-font-xl ms-fontColor-white\\\">Welcome to SharePoint!</span>\\n              <p class=\\\"ms-font-l ms-fontColor-white\\\">Customize SharePoint experiences using Web Parts.</p>\\n              <p class=\\\"ms-font-l ms-fontColor-white\\\">\" + sp_lodash_subset_1.escape(this.properties.description) + \"</p>\\n              <p class=\\\"ms-font-l ms-fontColor-white\\\">\" + sp_lodash_subset_1.escape(this.properties.test2) + \"</p>\\n              <p class=\\\"ms-font-l ms-fontColor-white\\\">Loading from \" + sp_lodash_subset_1.escape(this.context.pageContext.web.title) + \"</p>\\n              <a href=\\\"https://aka.ms/spfx\\\" class=\\\"\" + HelloWorldWebPart_module_scss_1.default.button + \"\\\">\\n                <span class=\\\"\" + HelloWorldWebPart_module_scss_1.default.label + \"\\\">Learn more</span>\\n              </a>\\n            </div>\\n          </div>\\n        </div>\\n      </div>\";\n    };\n    Object.defineProperty(HelloWorldWebPartWebPart.prototype, \"dataVersion\", {\n        get: function () {\n            return sp_core_library_1.Version.parse('1.0');\n        },\n        enumerable: true,\n        configurable: true\n    });\n    HelloWorldWebPartWebPart.prototype.getPropertyPaneConfiguration = function () {\n        return {\n            pages: [\n                {\n                    header: {\n                        description: strings.PropertyPaneDescription\n                    },\n                    groups: [\n                        {\n                            groupName: strings.BasicGroupName,\n                            groupFields: [\n                                sp_webpart_base_1.PropertyPaneTextField('description', {\n                                    label: strings.DescriptionFieldLabel\n                                }),\n                                sp_webpart_base_1.PropertyPaneTextField(\"test\", {\n                                    label: \"Multi-line Text Field\",\n                                    multiline: true\n                                }),\n                                sp_webpart_base_1.PropertyPaneCheckbox(\"test1\", {\n                                    text: \"Checkbox\"\n                                }),\n                                sp_webpart_base_1.PropertyPaneDropdown(\"test2\", {\n                                    label: \"Dropdown\",\n                                    options: [\n                                        { key: \"1\", text: \"One\" },\n                                        { key: \"2\", text: \"Two\" },\n                                        { key: \"3\", text: \"Three\" },\n                                        { key: \"4\", text: \"Four\" }\n                                    ]\n                                }),\n                                sp_webpart_base_1.PropertyPaneToggle(\"test3\", {\n                                    label: \"Toggle\",\n                                    onText: \"On\",\n                                    offText: \"Off\"\n                                })\n                            ]\n                        }\n                    ]\n                }\n            ]\n        };\n    };\n    HelloWorldWebPartWebPart.prototype._getListData = function () {\n        return this.context.spHttpClient.get(this.context.pageContext.web.absoluteUrl + \"/_api/web/lists?$filter=Hidden eq false\", sp_http_1.SPHttpClient.configurations.v1)\n            .then(function (response) {\n            return response.json();\n        });\n    };\n    HelloWorldWebPartWebPart.prototype._getMockListData = function () {\n        return MockHttpClient_1.default.get()\n            .then(function (data) {\n            var listData = { value: data };\n            return listData;\n        });\n    };\n    return HelloWorldWebPartWebPart;\n}(sp_webpart_base_1.BaseClientSideWebPart));\nexports.default = HelloWorldWebPartWebPart;\n\n"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}

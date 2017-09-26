@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "micra-client-side-solution",
+    "id": "b12185ac-dab4-4300-adc8-7aec11a3fc83",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": false
+  },
+  "paths": {
+    "zippedPackage": "solution/micra.sppkg"
+  }
+}
